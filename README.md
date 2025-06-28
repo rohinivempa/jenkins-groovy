@@ -53,27 +53,6 @@ Defines a global method `greet()` that can be used in any Jenkins pipeline direc
 
 ---
 
-### `src/org/example/Utils.groovy`
-
-```groovy
-package org.example
-
-class Utils implements Serializable {
-    def steps
-
-    Utils(steps) {
-        this.steps = steps
-    }
-
-    def sayBye(name) {
-        steps.echo "Goodbye, ${name}!"
-    }
-}
-```
-
-A reusable utility class that can be instantiated inside a pipeline script.
-
----
 
 
 ## Resources
