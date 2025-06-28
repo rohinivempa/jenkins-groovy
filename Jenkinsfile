@@ -1,6 +1,6 @@
 @Library('my-shared-lib') _  // Load the shared library
 
-import org.example.Utils
+import org.vcjain.Utils
 
 pipeline {
     agent any
