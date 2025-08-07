@@ -31,7 +31,7 @@ Create a Git repository with the above structure. You can name it something like
 2. Go to **Manage Jenkins** → **Configure System**.
 3. Scroll to **Global Pipeline Libraries** and click **Add**.
 4. Set the following:
-   - **Name**: `my-shared-lib`
+   - **Name** (thus name will be used for jenkins pipeline code): `my-shared-lib`
    - **Default version**: `main` or the branch name
    - **Retrieval method**: Modern SCM
    - **Source Code Management**: Git
